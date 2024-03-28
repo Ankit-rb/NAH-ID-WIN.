@@ -68,18 +68,38 @@ nav {
     border: 3px solid white;
     border-radius: 40px;
     font-size: x-large;
+    transition: 0.6s;
 }
 
 .img1 {
     margin: 30px;
     width: 300px;
+    height: 375px;
+    border: 0px solid white;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+.img1b {
+    margin: 30px;
+    width: 300px;
+    height: 375px;
     border: 0px solid white;
     border-radius: 3px;
+    position: absolute;
+    left: -2;
+    top: 4;
+    opacity: 0;
     transition: 1s;
 }
 
 .img1:hover {
+    border-radius: 35px;
+}
+
+.img1b:hover {
     border-radius: 25px;
+    opacity: 1;
 }
 
 .toji p {
@@ -93,6 +113,7 @@ nav {
     border: 3px solid white;
     border-radius: 40px;
     font-size: x-large;
+    transition: 0.6s;
 }
 
 .img2 {
@@ -104,7 +125,7 @@ nav {
 }
 
 .img2:hover {
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
 .nanami {
@@ -121,7 +142,7 @@ nav {
 }
 
 .img3:hover {
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
 .nanami #para {
@@ -135,6 +156,7 @@ nav {
     border: 3px solid white;
     border-radius: 40px;
     font-size: x-large;
+    transition: 0.6s;
 }
 
 h3 {
@@ -146,4 +168,22 @@ h3 {
 .good {
     display: flex;
     justify-content: end;
+}
+
+.toji p:hover {
+    background-color: white;
+    margin: 15px;
+    font-size: xx-large;
+}
+
+.gojo p:hover {
+    background-color: white;
+    margin: 15px;
+    font-size: xx-large;
+}
+
+.nanami #para:hover {
+    background-color: white;
+    margin: 15px;
+    font-size: xx-large;
 }
