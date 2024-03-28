@@ -1,0 +1,149 @@
+body {
+    background-color: #b298dc;
+}
+
+nav {
+    margin: 0px 10px;
+}
+
+.jk {
+    border: 2px solid #9d4edd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: 1s;
+
+}
+
+.jk:hover {
+    border-radius: 12px;
+    background-color: #c77dff;
+
+}
+
+.img {
+    padding-top: 20px;
+}
+
+.jjk {
+    background-color: #c8b6ff;
+    border: 1px none #9b5de5;
+}
+
+.img {
+    width: 3em;
+    display: flex;
+
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.gojo {
+    display: flex;
+}
+
+.toji {
+    display: flex;
+}
+
+.nanami {
+    display: flex;
+}
+
+.gojo p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 40px;
+    font-size: x-large;
+}
+
+.img1 {
+    margin: 30px;
+    width: 300px;
+    border: 0px solid white;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.img1:hover {
+    border-radius: 25px;
+}
+
+.toji p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 40px;
+    font-size: x-large;
+}
+
+.img2 {
+    margin: 30px;
+    width: 300px;
+    border: 0px solid white;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.img2:hover {
+    border-radius: 25px;
+}
+
+.nanami {
+    display: flex;
+
+}
+
+.img3 {
+    margin: 30px;
+    width: 300px;
+    border: 0px solid white;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+.img3:hover {
+    border-radius: 25px;
+}
+
+.nanami #para {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    border: 3px solid white;
+    border-radius: 40px;
+    font-size: x-large;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    margin: 10px;
+}
+
+.good {
+    display: flex;
+    justify-content: end;
+}
